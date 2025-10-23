@@ -2,16 +2,16 @@
 	"schemaVersion": 1,
 	"id": "valkib",
 	"version": "${version}",
-	"name": "ValkIB",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Valkyrien Icebreakers",
+	"description": "adds icebreakers blocks to valkyrien ships",
 	"authors": [
-		"Me!"
+		"Acrogenous"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/JSJBDEV/ValkyrienIcebreakers",
+		"sources": "https://github.com/JSJBDEV/ValkyrienIcebreakers"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/valkib/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -27,8 +27,5 @@
 		"java": ">=17",
 		"fabric-api": "*",
 		"fabric-language-kotlin": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }
